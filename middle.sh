@@ -6,7 +6,7 @@ for filename in "$@"
 do
 echo $filename
 head -n 15 $filename | tail -5
-something stupid
+something less stupid
 echo
 done
 
